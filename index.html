@@ -18,6 +18,13 @@
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
+        <!-- Wow animations -->
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+
         <!-- Plugin CSS -->
         <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
@@ -222,6 +229,7 @@
         </section> -->
 
 
+
         <section id="Conclusion" class="bg-dark">
             <div class="container" id="conclusion">
                 <div class="row">
@@ -237,6 +245,48 @@
             </div>
         </section>
 
+        <!-- <section id="About us" class="bg-primary">
+            <div class="container" id="about-us">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-white">About Us</h2>
+                        <hr class="my-4">
+                        <div class="col-md-2 portfolio-box">
+                            <div class="wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                                <a href="http://cfosco.github.io">
+                                    <img ng-src="img/team/fosco.jpg" class="img-members" src="img/team/fosco.jpg">
+                                </a>
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-name">
+                                    <h4 class="">Camilo Fosco</h4>
+                                </div>
+                                <div class="portfolio-box-affiliation">
+                                    <h5 class="">PhD Student, CSAIL MIT</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 portfolio-box">
+                          <div class="wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+                              <a href="http://cfosco.github.io">
+                                  <img ng-src="img/team/fosco.jpg" class="img-members" src="img/team/fosco.jpg">
+                              </a>
+                          </div>
+                          <div class="portfolio-box-caption">
+                              <div class="portfolio-box-name">
+                                  <h4 class="">Camilo Fosco</h4>
+                              </div>
+                              <div class="portfolio-box-affiliation">
+                                  <h5 class="">PhD Student, CSAIL MIT</h5>
+                              </div>
+                          </div>
+                      </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section> -->
 
         <section id="contact">
             <div class="container">
@@ -274,19 +324,16 @@
         <!-- Custom scripts for this template -->
         <script src="js/creative.min.js"></script>
 
-
-        <!-- D3 for visulaization -->
-        <!-- <script src="js/d3.v4.min.js" charset="utf-8"></script> -->
-
         <!-- Scripts for Waves -->
         <script src="waves_animation/waves_files/three.js.download"></script>
         <script src="waves_animation/waves_files/Projector.js.download"></script>
         <script src="waves_animation/waves_files/CanvasRenderer.js.download"></script>
         <script src="waves_animation/waves_files/stats.min.js.download"></script>
 
+        <!-- Main wave code-->
         <script>
 
-            var SEPARATION = 140, AMOUNTX = 40, AMOUNTY = 40;
+var SEPARATION = 140, AMOUNTX = 40, AMOUNTY = 40;
 
 var container, stats;
 var camera, scene, renderer;
